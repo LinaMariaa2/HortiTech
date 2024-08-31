@@ -1,0 +1,163 @@
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+    background-color: #266143;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.sidebar {
+    width: 60px;
+    border-right: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.icon-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.main-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #8f8d8d;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    background-color: #f80707;
+}
+
+.left-panel {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+    border-bottom: solid grey;
+}
+
+.back-arrow {
+    margin-right: 0.3%;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 40px;
+    margin-left: 45%;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container1{
+    border: 1px solid black;
+    height: 84vh;
+}
+
+.item{
+    height: 14vh;
+    display: flex;
+}
+
+.subitem1{
+    background-color: #8f8d8d;
+    width: 12%;
+    border-radius: 13%;
+    margin-right: 1%;
+    box-shadow: 2px 3px 5px;
+    
+}
+
+
+
+.subitem2{
+    width: 88%;
+}
+
+.nota{
+    height: 8vh;
+}
+
+.menu{
+    height: 3.5vh;
+    display: flex;
+}
+
+.icon1{
+    border: 1px solid rgb(0, 0, 0);
+    width: 2%;
+    border-radius: 100%;
+}
+
+.date{
+    width: 7%;
+    margin-left: 0.5%;
+}
+
+.arrow{
+    border: 1px solid black;
+    width: 2%;
+    margin-left: 87%;
+    margin-right: 1%;
+    border-radius: 100%;
+}
+
+.help{
+    border: 1px solid black;
+    margin-top: 8%;
+    height: 4vh;
+    margin-left: 96%;
+    margin-right: 2%;
+    border-radius: 100%;
+}
+
+
