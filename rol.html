@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Rol - horTitech</title>
+    <link rel="stylesheet" href="rol.css">
+</head>
+<body class="role-selection-page">
+    <div class="grid-container">
+        <div class="form-wrapper">
+            <h1>Selecciona tu rol</h1>
+            <form action="process-role.html" method="POST">
+                <label for="role">Selecciona tu rol:</label>
+                <select id="role" name="role" required>
+                    <option value="user">Usuario</option>
+                    <option value="admin">Administrador</option>
+                </select>
+                
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
